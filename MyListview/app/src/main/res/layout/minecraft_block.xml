@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/block_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+    <ImageView
+        android:id="@+id/blockTexture"
+        android:layout_width="64sp"
+        android:layout_height="64sp"/>
+    <TextView
+        android:id="@+id/blockName"
+        android:layout_width="wrap_content"
+        android:layout_height="64sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="10dp"
+        android:textSize="14sp"
+        android:textAlignment="center"/>
+</LinearLayout>

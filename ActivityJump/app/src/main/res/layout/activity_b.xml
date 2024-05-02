@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/activity_b"
+        android:height="25dp"
+        android:textSize="23sp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/button_jump_a"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_a"
+        android:height="25dp"/>
+
+    <Button
+        android:id="@+id/button_jump_c"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_c"
+        android:height="25dp"/>
+
+    <Button
+        android:id="@+id/button_open_web"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/open_search_page"
+        android:height="25dp"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

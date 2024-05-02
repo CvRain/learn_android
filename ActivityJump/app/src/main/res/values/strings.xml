@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ActivityJump</string>
+    <string name="phone_china_unicom">10000</string>
+    <string name="phone_china_telecom">10010</string>
+    <string name="phone_china_mobile">10086</string>
+
+    <string name="activity_a">Activity A</string>
+    <string name="activity_b">Activity B</string>
+    <string name="activity_c">Activity C</string>
+    <string name="go_to_b">Go to B</string>
+    <string name="go_to_c">Go to C</string>
+    <string name="search_hit">请输入搜索词</string>
+    <string name="go_to_a">Go to A</string>
+    <string name="go_to_d">Go to D</string>
+    <string name="open_search_page">Open Search Page</string>
+</resources>

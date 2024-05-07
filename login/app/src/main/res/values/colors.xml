@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="green">#00FF00</color>
+    <color name="macchiato_surface_1">#494d64</color>
+    <color name="macchiato_text">#cad3f5</color>
+    <color name="macchiato_lavender">#b7bdf8</color>
+</resources>

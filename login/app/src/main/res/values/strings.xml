@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">login</string>
+    <string name="placeholder">This is red color\n#00ff00</string>
+    <string name="login">Login</string>
+</resources>

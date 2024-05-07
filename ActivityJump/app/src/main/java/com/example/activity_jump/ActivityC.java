@@ -1,11 +1,15 @@
 package com.example.activity_jump;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class ActivityC extends AppCompatActivity {
@@ -35,13 +39,37 @@ public class ActivityC extends AppCompatActivity {
         });
 
         Button buttonJumpD = findViewById(R.id.button_jump_d);
-
-
         buttonJumpD.setOnClickListener(v -> {
-            Intent intent = new Intent(ActivityC.this, ActivityD.class);
-            startActivityForResult(intent, REQUEST_CODE_D);
+            showDialog();
         });
     }
+
+    private void showDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        LayoutInflater inflater = getLayoutInflater();
+        View dialogView = inflater.inflate(R.layout.activity_d, null);
+
+        EditText editText = dialogView.findViewById(R.id.editText);
+        Button buttonConfirm = dialogView.findViewById(R.id.button_confirm);
+
+        builder.setView(dialogView);
+        AlertDialog dialog = builder.create();
+        buttonConfirm.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String text = editText.getText().toString();
+                String reversedText = new StringBuilder(text).reverse().toString();
+                Toast.makeText(ActivityC.this, reversedText, Toast.LENGTH_SHORT).show();
+                dialog.dismiss();
+            }
+        });
+
+
+
+        dialog.show();
+    }
+
+
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {

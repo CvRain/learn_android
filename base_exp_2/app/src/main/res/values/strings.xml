@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">2311653郭天宇</string>
+    <string-array name="major">
+        <item>信息技术学院</item>
+        <item> 外国语学院</item>
+        <item>机电学院</item>
+        <item>商学院</item>
+        <item>艺术设计学院</item>
+        <item>珠宝学院</item>
+        <item>新闻传播学院</item>
+    </string-array>
+</resources>

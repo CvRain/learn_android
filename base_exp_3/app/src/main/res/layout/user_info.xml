@@ -2,12 +2,15 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:orientation="horizontal"
               android:layout_width="match_parent"
-              android:layout_height="match_parent">
+              android:layout_height="match_parent"
+              android:id="@+id/user_info_item">
+
     <TextView
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="姓名"/>
+
     <TextView
             android:id="@+id/stu_name"
             android:layout_width="0dp"
@@ -21,6 +24,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="成绩"/>
+
     <TextView
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -33,6 +37,7 @@
             android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="班级"/>
+
     <TextView
             android:layout_width="0dp"
             android:layout_weight="1"

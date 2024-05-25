@@ -9,7 +9,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.widget.AppCompatEditText;
-import com.google.android.material.textfield.TextInputEditText;
 
 import java.util.Objects;
 
@@ -49,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             editor.remove("password");
             editor.apply();
         }
-        Intent intent = new Intent(this, UsesActivity.class);
+        Intent intent = new Intent(this, UsersActivity.class);
         startActivity(intent);
 
     }

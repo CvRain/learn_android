@@ -4,6 +4,22 @@
               android:layout_width="match_parent"
               android:layout_height="match_parent"
               android:id="@+id/activity_users">
+    <Button
+        android:id="@+id/button_create_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="创建"
+            android:textSize="16sp"
+            android:onClick="CreateUser"
+            />
+    <Button
+        android:id="@+id/button_lookup_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:textSize="16sp"
+        android:onClick="LookupUser"
+            />
     <ListView
             android:id="@+id/info_list_view"
             android:layout_width="match_parent"

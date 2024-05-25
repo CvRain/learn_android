@@ -21,7 +21,7 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".UsesActivity"
+        <activity android:name=".UsersActivity"
                   android:exported="true">
             <intent-filter>
                 <action android:name="com.example.base_exp_3.USES_ACTIVITY"/>
